@@ -1,0 +1,314 @@
+[00:12:50.895] Global cache location '/home/steiner/.cache/typescript/4.1', safe file path '/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[00:12:50.896] Processing cache location '/home/steiner/.cache/typescript/4.1'
+[00:12:50.896] Trying to find '/home/steiner/.cache/typescript/4.1/package.json'...
+[00:12:50.897] Loaded content of '/home/steiner/.cache/typescript/4.1/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.533"}}
+[00:12:50.897] Loaded content of '/home/steiner/.cache/typescript/4.1/package-lock.json'
+[00:12:50.897] Finished processing cache location '/home/steiner/.cache/typescript/4.1'
+[00:12:50.897] Process id: 18492
+[00:12:50.897] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[00:12:50.897] validateDefaultNpmLocation: false
+[00:12:50.897] Npm config file: /home/steiner/.cache/typescript/4.1/package.json
+[00:12:50.897] Updating types-registry npm package...
+[00:12:50.897] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[00:12:55.838]     Succeeded. stdout:
+    + types-registry@0.1.537
+    updated 1 package and audited 1 package in 4.361s
+found 0 vulnerabilities
+
+
+[00:12:55.838] Updated types-registry npm package
+[00:12:55.873] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/components","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:12:55.896] Loaded safelist from types map file '/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[00:12:55.896] Explicitly included types: []
+[00:12:55.897] Inferred typings from unresolved imports: ["@/components","@/views"]
+[00:12:55.897] Result: {"cachedTypingPaths":[],"newTypingNames":["@/components","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:12:55.898] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/components","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:12:55.898] DirectoryWatcher:: Added:: WatchInfo: /home/steiner/school-work/watchlist/frontend/src/router/bower_components
+[00:12:55.899] DirectoryWatcher:: Added:: WatchInfo: /home/steiner/school-work/watchlist/frontend/src/router/node_modules
+[00:12:55.899] Installing typings ["@/components","@/views"]
+[00:12:55.900] '@/components':: Package name '@/components' contains non URI safe characters
+[00:12:55.900] '@/views':: Package name '@/views' contains non URI safe characters
+[00:12:55.900] All typings are known to be missing or invalid - no need to install more typings
+[00:12:55.900] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/components","@/views"],"kind":"action::set"}
+[00:12:55.900] Response has been sent.
+[00:16:29.911] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:16:29.912] Explicitly included types: []
+[00:16:29.912] Inferred typings from unresolved imports: ["@"]
+[00:16:29.912] Result: {"cachedTypingPaths":[],"newTypingNames":["@"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:29.912] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:29.913] Installing typings ["@"]
+[00:16:29.913] '@':: Package name '@' contains non URI safe characters
+[00:16:29.913] All typings are known to be missing or invalid - no need to install more typings
+[00:16:29.913] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@"],"kind":"action::set"}
+[00:16:29.913] Response has been sent.
+[00:16:30.631] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:16:30.631] Explicitly included types: []
+[00:16:30.632] Inferred typings from unresolved imports: ["@/"]
+[00:16:30.632] Result: {"cachedTypingPaths":[],"newTypingNames":["@/"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:30.632] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:30.633] Installing typings ["@/"]
+[00:16:30.633] '@/':: Package name '@/' contains non URI safe characters
+[00:16:30.633] All typings are known to be missing or invalid - no need to install more typings
+[00:16:30.633] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/"],"kind":"action::set"}
+[00:16:30.633] Response has been sent.
+[00:16:32.047] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/o"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:16:32.047] Explicitly included types: []
+[00:16:32.047] Inferred typings from unresolved imports: ["@/o"]
+[00:16:32.047] Result: {"cachedTypingPaths":[],"newTypingNames":["@/o"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:32.047] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/o"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:32.047] Installing typings ["@/o"]
+[00:16:32.047] '@/o':: Package name '@/o' contains non URI safe characters
+[00:16:32.047] All typings are known to be missing or invalid - no need to install more typings
+[00:16:32.047] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/o"],"kind":"action::set"}
+[00:16:32.047] Response has been sent.
+[00:16:32.408] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:16:32.408] Explicitly included types: []
+[00:16:32.409] Inferred typings from unresolved imports: ["@/"]
+[00:16:32.409] Result: {"cachedTypingPaths":[],"newTypingNames":["@/"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:32.409] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:32.409] Installing typings ["@/"]
+[00:16:32.409] '@/':: '__' is in missingTypingsSet - skipping...
+[00:16:32.409] All typings are known to be missing or invalid - no need to install more typings
+[00:16:32.409] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/"],"kind":"action::set"}
+[00:16:32.409] Response has been sent.
+[00:16:33.736] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/view"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:16:33.737] Explicitly included types: []
+[00:16:33.737] Inferred typings from unresolved imports: ["@/view"]
+[00:16:33.737] Result: {"cachedTypingPaths":[],"newTypingNames":["@/view"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:33.737] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/view"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:33.737] Installing typings ["@/view"]
+[00:16:33.737] '@/view':: Package name '@/view' contains non URI safe characters
+[00:16:33.737] All typings are known to be missing or invalid - no need to install more typings
+[00:16:33.737] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/view"],"kind":"action::set"}
+[00:16:33.737] Response has been sent.
+[00:16:34.655] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:16:34.655] Explicitly included types: []
+[00:16:34.655] Inferred typings from unresolved imports: ["@/views"]
+[00:16:34.655] Result: {"cachedTypingPaths":[],"newTypingNames":["@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:34.655] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:16:34.655] Installing typings ["@/views"]
+[00:16:34.655] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:16:34.655] All typings are known to be missing or invalid - no need to install more typings
+[00:16:34.655] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/views"],"kind":"action::set"}
+[00:16:34.655] Response has been sent.
+[00:18:54.705] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/v","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:18:54.706] Explicitly included types: []
+[00:18:54.707] Inferred typings from unresolved imports: ["@/v","@/views"]
+[00:18:54.707] Result: {"cachedTypingPaths":[],"newTypingNames":["@/v","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:18:54.707] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/v","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:18:54.707] Installing typings ["@/v","@/views"]
+[00:18:54.707] '@/v':: Package name '@/v' contains non URI safe characters
+[00:18:54.708] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:18:54.708] All typings are known to be missing or invalid - no need to install more typings
+[00:18:54.708] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/v","@/views"],"kind":"action::set"}
+[00:18:54.708] Response has been sent.
+[00:18:55.002] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/vi","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:18:55.002] Explicitly included types: []
+[00:18:55.003] Inferred typings from unresolved imports: ["@/vi","@/views"]
+[00:18:55.003] Result: {"cachedTypingPaths":[],"newTypingNames":["@/vi","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:18:55.003] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/vi","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:18:55.003] Installing typings ["@/vi","@/views"]
+[00:18:55.003] '@/vi':: Package name '@/vi' contains non URI safe characters
+[00:18:55.003] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:18:55.003] All typings are known to be missing or invalid - no need to install more typings
+[00:18:55.003] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/vi","@/views"],"kind":"action::set"}
+[00:18:55.003] Response has been sent.
+[00:18:55.232] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/view","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:18:55.233] Explicitly included types: []
+[00:18:55.234] Inferred typings from unresolved imports: ["@/view","@/views"]
+[00:18:55.234] Result: {"cachedTypingPaths":[],"newTypingNames":["@/view","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:18:55.234] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/view","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:18:55.234] Installing typings ["@/view","@/views"]
+[00:18:55.234] '@/view':: '__view' is in missingTypingsSet - skipping...
+[00:18:55.235] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:18:55.235] All typings are known to be missing or invalid - no need to install more typings
+[00:18:55.235] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/view","@/views"],"kind":"action::set"}
+[00:18:55.235] Response has been sent.
+[00:18:55.531] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:18:55.532] Explicitly included types: []
+[00:18:55.533] Inferred typings from unresolved imports: ["@/views"]
+[00:18:55.533] Result: {"cachedTypingPaths":[],"newTypingNames":["@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:18:55.533] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:18:55.533] Installing typings ["@/views"]
+[00:18:55.533] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:18:55.533] All typings are known to be missing or invalid - no need to install more typings
+[00:18:55.534] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/views"],"kind":"action::set"}
+[00:18:55.534] Response has been sent.
+[00:20:27.334] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:20:27.334] Explicitly included types: []
+[00:20:27.335] Inferred typings from unresolved imports: ["@","@/views"]
+[00:20:27.335] Result: {"cachedTypingPaths":[],"newTypingNames":["@","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:27.335] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:27.335] Installing typings ["@","@/views"]
+[00:20:27.335] '@':: '@' is in missingTypingsSet - skipping...
+[00:20:27.335] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:20:27.335] All typings are known to be missing or invalid - no need to install more typings
+[00:20:27.335] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@","@/views"],"kind":"action::set"}
+[00:20:27.335] Response has been sent.
+[00:20:27.750] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:20:27.750] Explicitly included types: []
+[00:20:27.751] Inferred typings from unresolved imports: ["@/","@/views"]
+[00:20:27.752] Result: {"cachedTypingPaths":[],"newTypingNames":["@/","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:27.752] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:27.752] Installing typings ["@/","@/views"]
+[00:20:27.752] '@/':: '__' is in missingTypingsSet - skipping...
+[00:20:27.753] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:20:27.753] All typings are known to be missing or invalid - no need to install more typings
+[00:20:27.753] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/","@/views"],"kind":"action::set"}
+[00:20:27.753] Response has been sent.
+[00:20:27.769] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/c","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:20:27.769] Explicitly included types: []
+[00:20:27.770] Inferred typings from unresolved imports: ["@/c","@/views"]
+[00:20:27.770] Result: {"cachedTypingPaths":[],"newTypingNames":["@/c","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:27.770] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/c","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:27.771] Installing typings ["@/c","@/views"]
+[00:20:27.771] '@/c':: Package name '@/c' contains non URI safe characters
+[00:20:27.771] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:20:27.771] All typings are known to be missing or invalid - no need to install more typings
+[00:20:27.771] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/c","@/views"],"kind":"action::set"}
+[00:20:27.772] Response has been sent.
+[00:20:28.106] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:20:28.107] Explicitly included types: []
+[00:20:28.108] Inferred typings from unresolved imports: ["@/","@/views"]
+[00:20:28.108] Result: {"cachedTypingPaths":[],"newTypingNames":["@/","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:28.108] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:28.109] Installing typings ["@/","@/views"]
+[00:20:28.109] '@/':: '__' is in missingTypingsSet - skipping...
+[00:20:28.109] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:20:28.109] All typings are known to be missing or invalid - no need to install more typings
+[00:20:28.109] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/","@/views"],"kind":"action::set"}
+[00:20:28.109] Response has been sent.
+[00:20:28.522] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/vie","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:20:28.522] Explicitly included types: []
+[00:20:28.523] Inferred typings from unresolved imports: ["@/vie","@/views"]
+[00:20:28.523] Result: {"cachedTypingPaths":[],"newTypingNames":["@/vie","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:28.524] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/vie","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:28.524] Installing typings ["@/vie","@/views"]
+[00:20:28.525] '@/vie':: Package name '@/vie' contains non URI safe characters
+[00:20:28.525] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:20:28.525] All typings are known to be missing or invalid - no need to install more typings
+[00:20:28.525] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/vie","@/views"],"kind":"action::set"}
+[00:20:28.525] Response has been sent.
+[00:20:29.200] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/view","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:20:29.200] Explicitly included types: []
+[00:20:29.201] Inferred typings from unresolved imports: ["@/view","@/views"]
+[00:20:29.201] Result: {"cachedTypingPaths":[],"newTypingNames":["@/view","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:29.201] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/view","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:29.201] Installing typings ["@/view","@/views"]
+[00:20:29.202] '@/view':: '__view' is in missingTypingsSet - skipping...
+[00:20:29.202] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:20:29.202] All typings are known to be missing or invalid - no need to install more typings
+[00:20:29.202] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/view","@/views"],"kind":"action::set"}
+[00:20:29.202] Response has been sent.
+[00:20:29.232] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[00:20:29.233] Explicitly included types: []
+[00:20:29.234] Inferred typings from unresolved imports: ["@/views"]
+[00:20:29.235] Result: {"cachedTypingPaths":[],"newTypingNames":["@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:29.235] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[00:20:29.236] Installing typings ["@/views"]
+[00:20:29.236] '@/views':: '__views' is in missingTypingsSet - skipping...
+[00:20:29.236] All typings are known to be missing or invalid - no need to install more typings
+[00:20:29.237] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/views"],"kind":"action::set"}
+[00:20:29.237] Response has been sent.
+[19:46:35.806] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[19:46:35.810] Explicitly included types: []
+[19:46:35.811] Inferred typings from unresolved imports: ["@","@/views"]
+[19:46:35.811] Result: {"cachedTypingPaths":[],"newTypingNames":["@","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:35.811] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:35.812] Installing typings ["@","@/views"]
+[19:46:35.812] '@':: '@' is in missingTypingsSet - skipping...
+[19:46:35.812] '@/views':: '__views' is in missingTypingsSet - skipping...
+[19:46:35.812] All typings are known to be missing or invalid - no need to install more typings
+[19:46:35.812] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@","@/views"],"kind":"action::set"}
+[19:46:35.813] Response has been sent.
+[19:46:36.027] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[19:46:36.027] Explicitly included types: []
+[19:46:36.027] Inferred typings from unresolved imports: ["@/","@/views"]
+[19:46:36.027] Result: {"cachedTypingPaths":[],"newTypingNames":["@/","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:36.028] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:36.028] Installing typings ["@/","@/views"]
+[19:46:36.028] '@/':: '__' is in missingTypingsSet - skipping...
+[19:46:36.028] '@/views':: '__views' is in missingTypingsSet - skipping...
+[19:46:36.028] All typings are known to be missing or invalid - no need to install more typings
+[19:46:36.028] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/","@/views"],"kind":"action::set"}
+[19:46:36.028] Response has been sent.
+[19:46:36.351] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/c","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[19:46:36.351] Explicitly included types: []
+[19:46:36.351] Inferred typings from unresolved imports: ["@/c","@/views"]
+[19:46:36.351] Result: {"cachedTypingPaths":[],"newTypingNames":["@/c","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:36.351] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/c","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:36.351] Installing typings ["@/c","@/views"]
+[19:46:36.351] '@/c':: '__c' is in missingTypingsSet - skipping...
+[19:46:36.351] '@/views':: '__views' is in missingTypingsSet - skipping...
+[19:46:36.351] All typings are known to be missing or invalid - no need to install more typings
+[19:46:36.351] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/c","@/views"],"kind":"action::set"}
+[19:46:36.351] Response has been sent.
+[19:46:36.451] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/co","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[19:46:36.452] Explicitly included types: []
+[19:46:36.452] Inferred typings from unresolved imports: ["@/co","@/views"]
+[19:46:36.453] Result: {"cachedTypingPaths":[],"newTypingNames":["@/co","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:36.453] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/co","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:36.453] Installing typings ["@/co","@/views"]
+[19:46:36.453] '@/co':: Package name '@/co' contains non URI safe characters
+[19:46:36.454] '@/views':: '__views' is in missingTypingsSet - skipping...
+[19:46:36.454] All typings are known to be missing or invalid - no need to install more typings
+[19:46:36.454] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/co","@/views"],"kind":"action::set"}
+[19:46:36.454] Response has been sent.
+[19:46:36.839] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/compo","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[19:46:36.839] Explicitly included types: []
+[19:46:36.840] Inferred typings from unresolved imports: ["@/compo","@/views"]
+[19:46:36.840] Result: {"cachedTypingPaths":[],"newTypingNames":["@/compo","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:36.840] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/compo","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:36.840] Installing typings ["@/compo","@/views"]
+[19:46:36.840] '@/compo':: Package name '@/compo' contains non URI safe characters
+[19:46:36.840] '@/views':: '__views' is in missingTypingsSet - skipping...
+[19:46:36.840] All typings are known to be missing or invalid - no need to install more typings
+[19:46:36.840] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/compo","@/views"],"kind":"action::set"}
+[19:46:36.840] Response has been sent.
+[19:46:37.220] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/component","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[19:46:37.221] Explicitly included types: []
+[19:46:37.221] Inferred typings from unresolved imports: ["@/component","@/views"]
+[19:46:37.221] Result: {"cachedTypingPaths":[],"newTypingNames":["@/component","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:37.222] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/component","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:37.222] Installing typings ["@/component","@/views"]
+[19:46:37.222] '@/component':: Package name '@/component' contains non URI safe characters
+[19:46:37.222] '@/views':: '__views' is in missingTypingsSet - skipping...
+[19:46:37.222] All typings are known to be missing or invalid - no need to install more typings
+[19:46:37.222] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/component","@/views"],"kind":"action::set"}
+[19:46:37.223] Response has been sent.
+[19:46:37.922] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/steiner/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/steiner/school-work/watchlist/frontend/src/router/index.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":["@/components","@/views"],"projectRootPath":"/home/steiner/school-work/watchlist/frontend/src/router","kind":"discover"}
+[19:46:37.922] Explicitly included types: []
+[19:46:37.923] Inferred typings from unresolved imports: ["@/components","@/views"]
+[19:46:37.923] Result: {"cachedTypingPaths":[],"newTypingNames":["@/components","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:37.923] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["@/components","@/views"],"filesToWatch":["/home/steiner/school-work/watchlist/frontend/src/router/bower_components","/home/steiner/school-work/watchlist/frontend/src/router/node_modules"]}
+[19:46:37.923] Installing typings ["@/components","@/views"]
+[19:46:37.923] '@/components':: '__components' is in missingTypingsSet - skipping...
+[19:46:37.923] '@/views':: '__views' is in missingTypingsSet - skipping...
+[19:46:37.923] All typings are known to be missing or invalid - no need to install more typings
+[19:46:37.923] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":["@/components","@/views"],"kind":"action::set"}
+[19:46:37.923] Response has been sent.

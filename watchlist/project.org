@@ -1,0 +1,79 @@
+#+title: Watchlist 改造
+
+* 后端编写[1/2]
+** DONE 路由映射
+后端数据接收，前端都用JSON发送，懒得用表单，还是JSON简单
+| url     | method | params          | meaning            |
+| :--:    | :--:   | :--:            | :--:               |
+| /append | POST   | title, year     | 增                 |
+| /all    | POST   | none            | 查询所有           |
+| /search | POST   | field, string   | 条件查询           |
+| /delete | POST   | id              | 删                 |
+| /modify | POST   | id, title, year | 修改               |
+| /get    | POST   | id              | 获取单独的一个对象 |
+
+** TODO 待办功能
+- [ ] cookie 用法
+- [ ] session 用法
+- [ ] 数据库出错信息发送
+* Vue 前端设计[2/4]
+** DONE 导航路由
+| link name        | view   | content       | frontend url | params        | relation to backend |
+| :--:             | :--:   | :--:          | :--:         | :--:          | :--:                |
+| create new movie | append | form          | /append      | title, year   | /append             |
+| show all movies  | all    | list          | /all         | none          | /all                |
+| search movies    | search | form and list | /search      | field, string | /search             |
+
+
+** DONE 页面功能
+| struct          | where       | content              |
+| :--:            | :--:        | :--:                 |
+| movie item      | /all        | link to its own page |
+| movie item      | /search     | link to its own page |
+| movie item page | /movie      | its title and year   |
+
+
+
+
+
+
+** TODO 页面美化
+*** home page
+随便写点什么吧
+*** Create new Movie
+- [ ] 表单美化
+- [ ] 换行
+*** Show All the Movies
+- [ ] movie item 
+  - [ ] 取消列表样式
+  - [ ] 阴影
+  - [ ] 背景色
+  - [ ] hover 样式
+  - [ ] transition
+  - [ ] card style
+
+*** Search Movies
+- [ ] `select` style
+- [ ] submit down
+
+*** Other  
+- [ ] replace `h2` with `h1`
+** TODO 错误处理
+- [ ] alert infomation
+- [ ] response 的处理
+
+* 模板 前端设计
+** Note
+__<% %>__ is the Service()
+
+** Translate
+1. v-for
+2. v-if
+** interactive
+如何与后端交流，获取数据？
+
+
+
+
+
+

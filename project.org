@@ -1,0 +1,52 @@
+#+title: School Work, Mother Fucker
+
+* 数据库原理
+** Problem[0/2]
+- [ ] reference
+- [ ] check if your *check* work
+- [ ] identity 标识
+  
+** 完整性
+Integrity Constraint ::== （O,P,A,R）
+
+O：数据集合：约束的对象（列、多列（元组）、元组集合）
+P：谓词条件：什么样的约束？
+# A：触发条件：什么时候检查？
+R：响应动作：不满足时怎么办？
+
+- check
+- null
+- primary key
+- foreign key + reference
+
+
+** Trigger
+#+BEGIN_SRC sql
+  create trigger trigger_name 
+  [before/after] [insert / delete / update] 
+  on table_name for each row
+  begin 
+  trigger_code
+  end;
+
+  -- or you can just write one line code without begin block
+#+END_SRC
+
+
+
+* 离散数学实践作业
+** 选做题—函数曲线的离散化
+考虑x(t)=-2tsin(t2)，0≤t≤8，
+从0开始，以△t=0.01、0.02、0.04、0.08、0.1、0.25、0.5、1
+等为间隔(△t的值可结合自己的绘制效果修改)，
+分别绘制不同△t下的x(t)的离散曲线。
+每个离散样本点可用‘*’显示(也可以自行选用其它符号)，
+程序采用JAVA或C/C++语言实现(可采用第三方库函数)。
+
+
+* Note on DataBase Principles
+[[https://blog.csdn.net/w_linux/article/details/79655073][约束]]
+[[https://www.cnblogs.com/kisun168/p/11325116.html][约束的操作]]
+[[https://blog.csdn.net/zhangtxsir/article/details/73555519][数据库外键]]
+[[https://www.cnblogs.com/52fhy/p/5831589.html][级联]]
+
